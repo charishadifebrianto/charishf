@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kuis | EDU-COVID</title>
+	<link rel="stylesheet" type="text/css" href="kuis.css">
+	<script type="text/javascript" src="kuis.js"></script>
+</head>
+
+<body>
+	<!-- header -->
+	<header>
+		<div class="containerheader">
+		<h1><a href="home.html">EDU-COVID</a></h1>
+			<ul>
+				<li><a href="home.html">Beranda</a></li>
+				<li><a href="pencegahan.html">Pencegahan</a></li>
+				<li><a href="data.html">Data</a></li>
+				<li class="active"><a href="kuis.html">Kuis</a></li>
+				<li><a href="kontak.html">Kontak</a></li>
+			</ul>
+	</header>
+
+	<main>
+		<form name="kuis" id="kuis">
+	<div>
+		<p>1. Gejala apa yang ditimbulkan COVID-19 ?</p>
+		<p><input type="radio" name="pertanyaan1" value="Sesak">A. Sesak napas</p>
+		<p><input type="radio" name="pertanyaan1" value="buta">B. Tidak bisa melihat</p>
+		<p><input type="radio" name="pertanyaan1" value="sakithati">C. Sakit hati</p><br>
+	</div>
+
+	<div>
+		<p>2. Protokol Kesehatan yang dibuat oleh pemerintah ?</p>
+		<p><input type="radio" name="pertanyaan2" value="4M">A. 4M</p>
+		<p><input type="radio" name="pertanyaan2" value="5M">B. 5M</p>
+		<p><input type="radio" name="pertanyaan2" value="6M">C. 6M</p><br>
+	</div>
+
+	<div>
+		<p>3. Salah satu cara untuk mencegah penyebaran COVID-19 adalah dengan cara ?</p>
+		<p><input type="radio" name="pertanyaan3" value="masker">A. Memakai masker</p>
+		<p><input type="radio" name="pertanyaan3" value="perhiasan">B. Memakai perhiasan</p>
+		<p><input type="radio" name="pertanyaan3" value="jimat">C. Memakai masker</p><br>
+	</div>
+
+	<div>
+		<p>4. Apa kepanjangan COVID-19 ?</p>
+		<p><input type="radio" name="pertanyaan4" value="salah1">A. CoklatVirus Disease 19</p>
+		<p><input type="radio" name="pertanyaan4" value="salah2">B. CobaanVina Disiksa 19</p>
+		<p><input type="radio" name="pertanyaan4" value="bener">C. CoronaVirus Disease 19</p><br>
+	</div>
+
+	<div>
+		<p>5. Upaya pemerintah agar dapat masyarakat dapat hidup normal kembali ?</p>
+		<p><input type="radio" name="pertanyaan5" value="transmigrasi">A. Transmigrasi</p>
+		<p><input type="radio" name="pertanyaan5" value="vaksin">B. Vaksinasi</p>
+		<p><input type="radio" name="pertanyaan5" value="Komunikasi">C. Komunikasi</p><br>
+	</div>
+
+	<div>
+	<input type="button" name="tombol" value="Finish Attempt" id="button" onclick="check()">
+	</div>
+
+</form>
+<p id="result"></p>
+	</main>
+
+
+	<footer>
+		<div class="containerfooter">
+			<div class="instansi">
+				<h1>Rumah Sakit Yarsi - © Copyright 2021.</h1>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header h1 {
+  float: left;
+  padding: 15px 0;
+  color: black;
+}
+
+header ul {
+  float: right;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  padding: 30px 25px;
+  display: inline-block;
+}
+
+header ul li a:hover {
+  background-color: lightgreen;
+  color: red;
+}
+
+.active {
+  background-color: lightgreen;
+  color: red;
+}
+
+.containerheader {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.containerheader:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.containerfooter {
+  width: 100%;
+  margin-top: 219px;
+  background-color: lightgreen;
+  text-align: center;
+  font-size: 10px;
+}
+
+.containerfooter:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.containerfooter {
+  width: 50px 50px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
